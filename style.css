@@ -19,7 +19,7 @@ body::before {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('images/web#2.png'); /* путь к вашему изображению */
+  background-image: url('./web4.png'); /* путь к вашему изображению */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
