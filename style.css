@@ -1,32 +1,13 @@
 body {
-  margin: 0;
-  padding: 0;
   font-family: Arial, sans-serif;
   text-align: center;
-  position: relative;
-  min-height: 100vh;
-}
-
-body::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url('./web); /* путь к вашему изображению */
-  background-size: cover; /* изображение покрывает весь экран */
-  background-position: center; /* изображение центрируется */
-  background-repeat: no-repeat; /* изображение не повторяется */
-  background-attachment: fixed; /* фон фиксирован */
-  opacity: 0.5; /* полупрозрачность фона */
-  z-index: -1; /* отправляем фон под содержимое */
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
 }
 
 .container {
   margin-top: 50px;
-  position: relative; /* чтобы содержимое было над фоном */
-  z-index: 1; /* приоритет содержимого */
 }
 
 h1 {
