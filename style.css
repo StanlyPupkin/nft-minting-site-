@@ -5,6 +5,11 @@ body {
   text-align: center;
   position: relative;
   min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #f4f4f4;
 }
 
 body::before {
@@ -14,34 +19,36 @@ body::before {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('./web4.png'); /* путь к вашему изображению */
-  background-size: cover; /* изображение покрывает весь экран */
-  background-position: center; /* изображение центрируется */
-  background-repeat: no-repeat; /* изображение не повторяется */
-  background-attachment: fixed; /* фон фиксирован */
-  opacity: 0.9; /* полупрозрачность фона */
-  z-index: -1; /* отправляем фон под содержимое */
+  background-image: url('images/web#2.png'); /* путь к вашему изображению */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  opacity: 0.9;
+  z-index: -1; /* Отправляем фон под содержимое */
 }
 
 .container {
-  margin-top: 50px;
-  position: relative; /* чтобы содержимое было над фоном */
-  z-index: 1; /* приоритет содержимого */
+  position: relative;
+  z-index: 1; /* Контент поверх фона */
+  background-color: rgba(255, 255, 255, 0.8); /* Полупрозрачный белый фон */
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Легкая тень для эффекта */
+  text-align: center;
+  max-width: 500px; /* Ограничение ширины блока */
 }
 
 h1 {
   font-size: 2rem;
   margin-bottom: 20px;
-  background-color: rgba(255, 255, 255, 0.8); /* белый фон с прозрачностью */
-  padding: 10px 20px; /* отступы внутри блока */
-  border-radius: 15px; /* округленные углы */
-  display: inline-block; /* чтобы фон обрамлял только текст */
 }
 
 img {
   width: 300px;
   height: auto;
   margin-bottom: 20px;
+  border-radius: 15px; /* Закругленные углы для изображения */
 }
 
 button {
@@ -64,8 +71,8 @@ button:disabled {
   margin-top: 20px;
   font-size: 1rem;
   color: red;
-  background-color: rgba(255, 255, 255, 0.8); /* белый фон с прозрачностью */
-  padding: 10px 20px; /* отступы внутри блока */
-  border-radius: 15px; /* округленные углы */
-  display: inline-block; /* чтобы фон обрамлял только текст */
+  background-color: rgba(255, 255, 255, 0.8); /* Полупрозрачный фон */
+  padding: 10px 20px;
+  border-radius: 15px;
+  display: inline-block;
 }
