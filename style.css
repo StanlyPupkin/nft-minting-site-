@@ -14,7 +14,7 @@ body::before {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('web#2.png'); /* путь к вашему изображению */
+  background-image: url('./web#2.png'); /* путь к вашему изображению */
   background-size: cover; /* изображение покрывает весь экран */
   background-position: center; /* изображение центрируется */
   background-repeat: no-repeat; /* изображение не повторяется */
