@@ -9,7 +9,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: #f4f4f4;
+  background-color: #ada1a1;
 }
 
 body::before {
