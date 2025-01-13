@@ -1,9 +1,14 @@
 body {
-  font-family: Arial, sans-serif;
-  text-align: center;
-  background-color: #ffffff;
   margin: 0;
   padding: 0;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-image: url('web#2.png'); /* путь к вашему изображению */
+  background-size: cover; /* изображение покрывает весь экран */
+  background-position: center; /* изображение центрируется */
+  background-repeat: no-repeat; /* изображение не повторяется */
+  background-attachment: fixed; /* фон фиксирован */
+  opacity: 0.7; /* полупрозрачность фона */
 }
 
 .container {
